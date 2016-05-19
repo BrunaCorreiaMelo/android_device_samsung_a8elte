@@ -60,9 +60,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
-#Logcat
-PRODUCT_COPY_FILES += \
-    device/samsung/a8elte/logcat/log:system/init.d/log.sh
 ###########################################################
 ### GRAPHICS
 ###########################################################
