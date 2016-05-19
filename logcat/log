@@ -1,4 +1,0 @@
-#/system/bin/bash
-cd /sdcard 
-logcat > log.txt
-

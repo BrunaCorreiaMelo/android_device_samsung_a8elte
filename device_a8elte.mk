@@ -135,35 +135,35 @@ PRODUCT_COPY_FILES += \
 ### AUDIO
 ###########################################################
 
-#PRODUCT_PACKAGES += \
-#	audio.a2dp.default \
-#	audio.usb.default \
-#	audio.r_submix.default \
-
+PRODUCT_PACKAGES += \
+	audio.a2dp.default \
+	audio.usb.default \
+	audio.r_submix.default \
+	audio.primary.universal5430
 ###########################################################
 ### OMX/MEDIA
 ###########################################################
 
-#PRODUCT_PACKAGES += \
-#	libstagefrighthw \
-#	libExynosOMX_Core
+PRODUCT_PACKAGES += \
+	libstagefrighthw \
+	libExynosOMX_Core
 
-#PRODUCT_PACKAGES += \
-#	libOMX.Exynos.AVC.Decoder \
-#	libOMX.Exynos.HEVC.Decoder \
-#	libOMX.Exynos.MPEG4.Decoder \
-#	libOMX.Exynos.VP8.Decoder \
-#	libOMX.Exynos.WMV.Decoder
+PRODUCT_PACKAGES += \
+	libOMX.Exynos.AVC.Decoder \
+	libOMX.Exynos.HEVC.Decoder \
+	libOMX.Exynos.MPEG4.Decoder \
+	libOMX.Exynos.VP8.Decoder \
+	libOMX.Exynos.WMV.Decoder
 
-#PRODUCT_PACKAGES += \
-#	libOMX.Exynos.AVC.Encoder \
-#	libOMX.Exynos.MPEG4.Encoder \
-#	libOMX.Exynos.VP8.Encoder
+PRODUCT_PACKAGES += \
+	libOMX.Exynos.AVC.Encoder \
+	libOMX.Exynos.MPEG4.Encoder \
+	libOMX.Exynos.VP8.Encoder
 
-#PRODUCT_PACKAGES += \
-#	libOMX.Exynos.AAC.Decoder \
-#	libOMX.Exynos.MP3.Decoder \
-#	libOMX.Exynos.FLAC.Decoder
+PRODUCT_PACKAGES += \
+	libOMX.Exynos.AAC.Decoder \
+	libOMX.Exynos.MP3.Decoder \
+	libOMX.Exynos.FLAC.Decoder
 
 ###########################################################
 ### POWER
