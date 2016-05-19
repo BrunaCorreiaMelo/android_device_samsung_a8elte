@@ -213,7 +213,7 @@ PRODUCT_PACKAGES += \
 
 # This fixes switching between front/back camera sensors
 PRODUCT_PROPERTY_OVERRIDES += \
-    camera2.portability.force_api=1
+    camera2.portability.force_api=1
 
 ###########################################################
 ### TOUCHSCREEN
@@ -238,6 +238,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
+
+# Set default USB interface
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp
 
 ###########################################################
 ### MOBICORE
