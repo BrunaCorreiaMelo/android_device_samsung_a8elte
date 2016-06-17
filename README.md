@@ -31,5 +31,6 @@ Then type this:-
   `repo sync`
 
  `. build/envsetup.sh`
+ 
  `brunch a8elte`
 
