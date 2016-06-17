@@ -1,41 +1,14 @@
-<a target="_blank" href="http://www.copyrighted.com/copyrights/view/0dl4-b1qo-4lxw-lsut"><img border="0" alt="Copyrighted.com Registered &amp; Protected 
-0DL4-B1QO-4LXW-LSUT" title="Copyrighted.com Registered &amp; Protected 
-0DL4-B1QO-4LXW-LSUT" width="150" height="40" src="http://static.copyrighted.com/images/seal.gif" /></a>
+<b>HOW DO I COMPILE ?</b>
 
-Device configuration for the Samsung Galaxy A8
+Type this commands 
+`cd`
 
-Copyright (C) 2014-2015 The CyanogenMod Project
-Copyright (C) 2014-2015 Andreas Schneider <asn@cryptomilk.org>
+`cd cm13`
 
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
+`gedit .repo/local_manifests/roomservice.xml`
 
-      http://www.apache.org/licenses/LICENSE-2.0
+And paste this inside that file :-
 
-------------------------------------------------------------------
-
-* Description
-
-  This repository is for CM-13.0 on Samsung Galaxy A8 (A800F)
-
-    THIS IS WORK IN PROGRESS.
-
-
-* How To Build CM-13.0 for Samsung Galaxy A8
-
-  - Make a workspace
-
-  $ mkdir -p ~/cyanogenmod/system
-  $ cd ~/cyanogenmod/system
-
-
-  - Do repo init & sync
-
-  $ repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
-
-
-  - Create .repo/local_manifests/roomservice.xml with the following content:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
@@ -53,34 +26,10 @@ Copyright (C) 2014-2015 Andreas Schneider <asn@cryptomilk.org>
 </manifest>
 ```
 
-  $ repo sync
+Then type this:-
 
-  - Copy proprietary vendor files
+  `repo sync`
 
-  There are two options to to that. Connect your device with adb enabled and run:
+ `. build/envsetup.sh`
+ `brunch a8elte`
 
-    ./extract-files.sh
-
-  Or if you have the system image unpacked on your disk, then simply run:
-
-    STOCK_ROM_DIR=/path/to/system ./extract-files.sh
-
-  - Setup environment
-
-  $ source build/envsetup.sh
-  $ lunch cm_slte-userdebug
-
-
-  - Build CM
-
-  $ export USE_CCACHE=1
-  $ make -j10 bacon
-
-
-* Thanks
-
-  CyanogenMod
-  TeamWin
-
-----
-EOF
