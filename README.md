@@ -21,7 +21,7 @@ And paste this inside that file :-
 <project name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" />
 <project name="projects/android/android_hardware_samsung_slsi_exynos5430" path="hardware/samsung_slsi-cm/exynos5430" remote="cryptomilk"  />
 <project name="Grace5921/Kernel_samsung_a8elte" path="kernel/samsung/a8elte" remote="github" revision="cm-13.0"/>
-<project name="Grace5921/android_device_samsung_a8elte" path="device/samsung/a8elte" remote="github"revision="cm-13.0" />
+<project name="Grace5921/android_device_samsung_a8elte" path="device/samsung/a8elte" remote="github" revision="cm-13.0" />
 <project name="Grace5921/external_stlport.git" path="external/stlport" remote="github" />
 <project name="Grace5921/android_vendor_samsung_a8elte" path="vendorsamsung/a8elte" remote="github" revision="master" />
 </manifest>
