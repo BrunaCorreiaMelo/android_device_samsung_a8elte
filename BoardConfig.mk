@@ -53,7 +53,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 28219277312
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 #TARGET_PREBUILT_KERNEL := device/samsung/a8elte/kernel
-TARGET_KERNEL_CONFIG := a8mea_03_defconfig
+TARGET_KERNEL_CONFIG := a8elte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/a8elte
 # hardware/samsung_slsi/exynos/libhdmi_legacy
 TARGET_LINUX_KERNEL_VERSION := 3.10
